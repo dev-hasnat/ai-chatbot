@@ -300,7 +300,7 @@
     showTypingIndicator();
 
     try {
-      const response = await fetch('response.php', {
+      const response = await fetch('https://hasnat-chat.wuaze.com/response.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
